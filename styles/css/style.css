@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+.nav-link {
+    color: white !important;
+}
+.logo {
+    border-radius: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    z-index: 1;
+}
+.heading {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    color: #d9534f;
+    text-shadow: 2px 2px 3px rgba(100, 0, 0, 0.5);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    z-index: 1;
+}
+
+.container-main {
+    margin-top: 100px !important;
+}
+
+.landing-page {
+    margin-top: 50px !important;
+}
+.container-secondary {
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.main-functions {
+    margin: 15px;
+    box-shadow: 5px 7px 5px rgba(100, 0, 0, 0.5);
+    transition: box-shadow 0.5s;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    min-height: 500px;
+    border-radius: 10px;
+}
+.index-heading {
+    font-family: "Muli", sans-serif;
+    font-size: 30px;
+}
+.tiles-label {
+    padding: 10px;
+    font-weight: 900;
+}
+
+img {
+    padding-top: 10px;
+    padding-left: 22%;
+}
+
+.main-functions:hover {
+    box-shadow: 5px 7px 20px rgba(200, 0, 0, 0.5);
+}
+
+.comp-chart {
+    border: 1px solid black;
+    font-family: "Muli", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-us {
+    text-align: center;
+    min-height: 10px;
+}
+.container-aboutus {
+    margin-top: 10%;
+}
+.names {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px 0px 20px 5px;
+    box-shadow: 5px 7px 5px rgba(100, 0, 0, 0.5);
+    margin: 8px;
+    transition: box-shadow 0.5s;
+    border-radius: 10px;
+    text-align: center;
+    width: 10%;
+}
+
+.names:hover {
+    box-shadow: 5px 7px 20px rgba(200, 0, 0, 0.5);
+}
+
+.map {
+    margin-right: 150px;
+    display: block;
+    padding: 15px;
+}
+
+.youtube-video {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+}
+
+.container-admin-login {
+    margin-top: 50px;
+    margin-left: 40%;
+    padding: 50px 50px 30px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 5px 5px 15px rgba(100, 0, 0, 0.5);
+    max-width: 400px;
+}
+
+.req-button {
+    margin-left: 35%;
+    box-shadow: 2px 3px 5px rgba(100, 0, 0, 0.5);
+}
+
+.form-buttons {
+    margin-top: 40px;
+    box-shadow: 2px 3px 5px rgba(100, 0, 0, 0.5);
+}
+
+.mb-0 {
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-button {
+    color: #d9534f;
+    font-family: "Nunito", sans-serif;
+}
+
+.faq-answer {
+    color: black !important;
+    font-family: "Nunito", sans-serif;
+}
+
+.newsletter-label {
+    font-family: "Nunito", sans-serif;
+    color: #d9534f;
+}
+
+.container-form {
+    margin-top: 30px !important;
+    display: block;
+    width: 50%;
+    margin-bottom: 15%;
+}
+
+.admin-page-heading {
+    font-family: "Nunito", sans-serif;
+}

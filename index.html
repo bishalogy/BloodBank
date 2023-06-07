@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />  
+    <link rel="icon" href="images/blood-bank-logo.jpg">
+    <link rel="stylesheet" href="styles/css/style.css" />
+    <title>BloodBank Management System</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <a class="navbar-brand" href="index.html"
+        ><img src="images/blood-bank-logo.jpg" height="40px" width="50px" class="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" style="color: white;">Blood Bank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html" style="color: white;">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html" style="color: white;">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="adminLogin.html" style="color: white;">Admin Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="heading" style="margin-top: 100px;">
+      <h1 align="center" class="heading">DrizzleWebs BloodBank</h1>
+    </div>
+    <div class="container container-main landing-page">
+      <div class="row" style="flex-wrap: nowrap;">
+          <div
+          class="main-functions col col-xl-4 col-lg-4"
+          style="border: 1px solid black;"
+          >
+          <img
+            class="request-img"
+            src="images/request.png"
+            
+          />
+          <h5 class="tiles-label" align="center">Request Now</h5>
+          <p align="center">
+            Need of blood urgently? Request now and have blood ready in no time!
+          </p>
+          <a href="request.html" class="btn btn-danger stretched-link req-button" style="margin-top: 35px">Request!</button></a>
+        </div>
+      
+        <div
+          class="main-functions col col-xl-4 col-lg-4"
+          style="border: 1px solid black;"
+        >
+          <img
+            class="enquire-img"
+            src="images/enquire.jpg"
+            height="57%"
+            width="100%"
+            style="padding-left: 10%;"
+          />
+          <h5 class="tiles-label" align="center">Enquire Now</h5>
+          <p align="center">
+            Wanna know if a particular blood type is available with us? Ping us
+            and we'll let you know.
+          </p>
+          <a href="enquire.html" class="btn btn-danger stretched-link req-button" >Enquire</a>
+        </div>
+
+        <div
+          class="main-functions col col-xl-4 col-lg-4" 
+          style="border: 1px solid black;"
+        >
+          <img
+            class="donate-img"
+            src="images/donate.png"
+            height="57%"
+            width="95%"
+            style="padding-left: 10%;"
+          />
+          <h5 class="tiles-label" align="center">Donate Blood Now!</h5>
+          <p align="center">
+            Feeling like doing something good? Donate blood and save lives!
+          </p>
+          <a href="donate.html" class="btn btn-danger stretched-link req-button" style="margin-top: 25px;">Donate!</button></a>
+        </div>
+      </div>
+      <div class="row">
+        <br />
+        <br />
+      </div>
+    </div>
+    <hr>
+
+    <div class="container container-secondary">
+        <div class="row">
+          <div class="col col-lg-12">
+              <h4 class="index-heading">
+                Donating blood is a vital way to help save lives. Along with helping save lives, there are a number of reasons why donating blood is important. A single donation can save three lives. One blood donation provides different blood components that can help up to three different people.
+              </h4>
+          </div>
+      </div>
+      <br>
+      <br>
+    <hr>
+    
+    <div class="container container-compatible">
+        <h4 class="index-heading" align="center" style="text-decoration: underline; padding-bottom: 20px;">Blood Compatibility Chart</h4>
+        <div class="row">            
+            <div class="col comp-chart">
+                <b>Blood Type</b>
+            </div>
+            <div class="col comp-chart">
+            <b>Donate Blood To</b>
+            </div>
+            <div class="col comp-chart">
+            <b>Receive Blood From</b>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>A+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>A+,AB+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>A+,A-,O+,O-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>O+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>O+,A+,B+,AB+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>O+,O-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>B+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>B+,AB+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>B+,B-,O+,O-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>AB+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>AB+</p>
+            </div>
+            <div class="col comp-chart">
+                <p>Anyone!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>A-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>A+,A-,AB+,AB-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>A-,O-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>O-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>Anyone!</p>
+            </div>
+            <div class="col comp-chart">
+                <p>O-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>B-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>B+,B-,AB+,AB-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>A-,O-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col comp-chart">
+                <p>AB-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>AB+,AB-</p>
+            </div>
+            <div class="col comp-chart">
+                <p>AB-,A-,B-,O+,O-</p>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <hr>
+    <div class="youtube-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-Cwiu9Hi0vo" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px;"></iframe>
+      <br>
+      <br>
+    </div>
+    <hr>
+
+    <h2 style="color: #d9534f; padding-bottom: 20px;">FAQs</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0 faq-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn faq-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Will I get juice after donating blood?
+            </button>
+          </h2>
+        </div>    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body faq-answer" align="justify">
+            Ans: Yes you will be given juice to keep your blood sugar in check.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0 faq-button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <button class="btn collapsed faq-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How long will the donation process take?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body faq-answer" align="justify">
+            Ans: It usually takes about 15 minutes. It changes from person to person.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0 faq-button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            <button class="btn collapsed faq-button" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How often can I dontate blood?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body faq-answer" align="justify">
+            Ans: You must have a gap of at least 12 weeks between donations.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0 faq-button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            <button class="btn collapsed faq-button" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Who can donate blood?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body faq-answer" align="justify">
+            Ans: If you are between 18–65 years old and weigh a minimum of 50  kg, you can potentially save a life.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0 faq-button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+            <button class="btn collapsed faq-button" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Does donating blood make me weak?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body faq-answer" align="justify">
+            Ans: Yes and no, you may feel weak for a few hours but you will be back to normal within no time.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h2 class="mb-0 faq-button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+            <button class="btn collapsed faq-button" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              How long will my blood stored for?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+          <div class="card-body faq-answer" align="justify">
+            Ans: Blood will be stored for at most for 42 days, if no receiver is found.
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <hr>
+
+    <div class="container" id="newsletter">
+      <form action="backend/newsletter.php" method="POST">
+        <div class="form-row">
+          <div class="form-group col col-lg-4 newsletter-label"><h4>Sign Up for our newsletter!</h4></div>
+          <div class="form-group col col-lg-4 newsletter-label">
+            <input type="email" name="newsletter-email" class="form-control" placeholder="Your email ID" size="50%">
+          </div>
+          <div class="form-group col col-lg-2 newsletter-label">
+            <button class="btn btn-danger form-buttons" style="margin-top: 0;" name="submit-btn">Submit</button>
+          </div>
+        </div>
+      </form>      
+    </div>
+    <hr>
+    <h4 align="center" style="content: none;">****</h4>
+
+    <div class="footer bg-danger">
+      <p style="padding: 5px 5px 1px 5px;">© 2020 DrizzleWebs</p>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>

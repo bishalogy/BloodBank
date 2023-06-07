@@ -1,0 +1,26 @@
+Get type of an object : var_dump($object)
+
+Substring : substr($string, first_characters_to_remove)
+
+String to Int : (int)$string
+
+Int to String : (string)$int.
+
+
+$ticket = 'DNT100001';
+echo var_dump($ticket);
+echo '<br>';
+$numStr = substr($ticket, 3);
+echo '<br>';
+echo var_dump($numStr);
+$num = (int)$numStr;
+echo '<br>';
+echo var_dump($num);
+echo '<br>';
+$numtoStr = (string)$num;
+echo 'DNT'.$numtoStr;
+
+
+
+
+INSERT INTO `blood_storage` (`bid`, `blood_type`, `amount`, `city`) VALUES (NULL, 'O+', '50', 'Mangaluru'), (NULL, 'O-', '50', 'Mangaluru'), (NULL, 'A+', '50', 'Mangaluru'), (NULL, 'A-', '50', 'Mangaluru'), (NULL, 'B+', '50', 'Mangaluru'), (NULL, 'B-', '50', 'Mangaluru'), (NULL, 'AB+', '50', 'Mangaluru'), (NULL, 'AB-', '50', 'Mangaluru');
